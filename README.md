@@ -2,14 +2,7 @@
 
 ### Description
 
-This repository is implemented with webpack and the initial setup to use typescript with react [Reference](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html)
-
-### Directory Structure
-
-src
-|----- static ---- index.html
-|----- App.tsx
-|----- index.tsx
+This repository is implemented with webpack and the initial setup to use typescript with react [Documentation](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html)
 
 ### Typescript config
 
