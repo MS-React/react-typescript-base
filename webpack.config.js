@@ -11,7 +11,7 @@ module.exports = {
   },
 
   entry: {
-    app: ['babel-polyfill', './src/index.tsx']
+    app: ['./src/index.tsx']
   },
 
   plugins: [
@@ -37,7 +37,7 @@ module.exports = {
       // all files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
       { test: /\.tsx?$/, loader: 'awesome-typescript-loader' },
       // all output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
-      { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
+      { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' }
     ]
   }
 };
